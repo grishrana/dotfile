@@ -24,37 +24,58 @@
     {
       "type": "os",
       "key": " OS ",
-      "keyColor": "magenta"
+      "keyColor": "yellow"
     },
     {
       "type": "kernel",
-      "key": " Ker."
+      "key": " Ker.",
+      "keyColor": "yellow"
     },
     {
-      "type": "uptime",
-      "key": "󱑀 ",
+      "type": "packages",
+      "keyColor": "yellow"
     },
-    "packages",
-    "shell",
+    {
+      "type": "shell",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "de",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "wm",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "wmtheme",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "terminal",
+      "keyColor": "yellow"
+    },
     //"display",
-    "de",
-    "wm",
-    "wmtheme",
     //"theme",
     //"icons",
     //"font",
     //"cursor",
-    "terminal",
     //"terminalfont",
     {
       "type": "cpu",
       "key": "󰻠 ",
+      "keyColor": "yellow"
     },
     {
       "type": "gpu",
-      "key": "󰬕"
+      "key": "󰬕",
+      "keyColor": "yellow"
     },
-    "memory",
+    {
+      "type": "memory",
+      "key": "󰬕",
+      "keyColor": "yellow"
+    },
     //"swap",
     //"disk",
     //"localip",
