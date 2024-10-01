@@ -117,12 +117,12 @@
     "spacing": 10
   },
   "clock": {
-    // "timezone": "America/New_York",
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format-alt": "{:%Y-%m-%d}"
+    "format": "{:%H:%M %d.%m.%Y %A}",
+    "tooltip": false,
+    "on-click": "ags -t calendar"
   },
   "cpu": {
-    "format": "{usage}% ",
+    "format": "{usage}%  ",
     "tooltip": false
   },
   "memory": {
@@ -169,11 +169,11 @@
     // "format-good": "", // An empty format will hide the module
     // "format-full": "",
     "format-icons": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
     ]
   },
   "battery#bat2": {
@@ -184,10 +184,10 @@
     "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
     "tooltip": true,
     "format-icons": {
-      "default": "",
-      "performance": "",
-      "balanced": "",
-      "power-saver": ""
+      "default": " ",
+      "performance": " ",
+      "balanced": " ",
+      "power-saver": " "
     }
   },
   "network": {
@@ -227,8 +227,8 @@
     "return-type": "json",
     "max-length": 40,
     "format-icons": {
-      "spotify": "",
-      "default": "🎜"
+      "spotify": " ",
+      "default": "🎜 "
     },
     "escape": true,
     "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
