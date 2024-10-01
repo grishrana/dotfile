@@ -2641,6 +2641,3 @@ open_url_with default
 #tab keymaps
 map alt+1 previous_tab
 map alt+2 next_tab
-
-# Added by Gogh
-include colors.conf
