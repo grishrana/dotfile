@@ -22,6 +22,7 @@
 #: <https://sw.kovidgoyal.net/kitty/kittens/choose-fonts/#font-spec-
 #: syntax>.
 
+# font_size 11.0
 
 #: Font size (in pts).
 
@@ -1204,7 +1205,7 @@
 #: will only work if dynamic_background_opacity was enabled in the
 #: original config.
 
-# background_blur 1
+# background_blur 0
 
 #: Set to a positive value to enable background blur (blurring of the
 #: visuals behind a transparent window) on platforms that support it.
@@ -1891,7 +1892,7 @@
 #: The full list of actions that can be mapped to key presses is
 #: available here <https://sw.kovidgoyal.net/kitty/actions/>.
 
-kitty_mod ctrl+shift
+# kitty_mod ctrl+shift
 
 #: Special modifier key alias for default shortcuts. You can change
 #: the value of this option to alter all default shortcuts that use
@@ -2521,7 +2522,7 @@ kitty_mod ctrl+shift
 #::  bar, a full restart is needed. You can also map a keybinding to
 #::  load a different config file, for example::
 
-map f5 load_config /home/daidon/.config/kitty/kitty.conf
+#::      map f5 load_config /path/to/alternative/kitty.conf
 
 #::  Note that all options from the original kitty.conf are discarded,
 #::  in other words the new configuration *replace* the old ones.
@@ -2594,17 +2595,16 @@ map f5 load_config /home/daidon/.config/kitty/kitty.conf
 
 # customization start:
 
-
 # Font
 font_family JetBrainsMono Nerd Font
 italic_font auto 
 bold_italic_font auto
-font_size 9.0
+font_size 11.0
 
 # Theme 
 background #142838
-background_opacity 0.8
-background_blur 1
+background_opacity 0.7
+background_blur 0
 foreground #8ff586
 
 #cursor
@@ -2641,8 +2641,3 @@ open_url_with default
 #tab keymaps
 map alt+1 previous_tab
 map alt+2 next_tab
-
-# window
-
-#added by gogh
-include colors.conf
